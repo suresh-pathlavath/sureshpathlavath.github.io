@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Goal Annotations - Suresh Pathlavath</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css"> 
+    <link rel="stylesheet" href="../../books_style.css"> 
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="../../index.html" class="brand-name">Suresh Pathlavath</a>
+            <span class="brand-subtitle">Assistant Manager at Flipkart Minutes | IIT Kharagpur’21</span>
+        </div>
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <ul class="nav-list">
+            <li><a href="../../index.html#about">About</a></li>
+            <li><a href="../../index.html#experience">Experience</a></li>
+            <li><a href="../../index.html#education">Education</a></li>
+            <li><a href="../../books.html">Library</a></li>
+            <li><a href="../../blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navList = document.querySelector('.nav-list');
+
+            mobileMenu.addEventListener('click', () => {
+                navList.classList.toggle('active');
+            });
+        });
+    </script>
+
+    <main class="library-container">
+        <section class="annotation-card">
+            <div class="annotation-header">
+                <h2 class="book-title">The Goal: A Process of Ongoing Improvement</h2>
+                <p class="book-author">by Eliyahu M. Goldratt</p>
+                <p class="library-subtitle" style="margin-top: 10px;">Raw highlights, quotes, and notes captured while reading.</p>
+                <p class="library-subtitle" style="margin-top: 10px;">Month Read - Jun-Jul'26</p>
+
+            </div>
+            
+            <div class="annotation-content">
+                
+                <h3 style="margin-top: 25px; margin-bottom: 10px; font-size: 1.2rem; color: #333;">The Five Focusing Steps & Systems Constraints</h3>
+                <ul class="highlight-list">
+                    <li>IDENTIFY the system’s constraint(s[cite: 2, 42]</li>
+                    <li>Decide how to EXPLOIT the system’s constraint(s). 3. SUBORDINATE everything else to the above decision. 4. ELEVATE the system’s constraint(s). 5. WARNING!!!! If in the previous steps a constraint has been broken, go back to step 1, but do not allow INERTIA to cause a system’s constraint[cite: 2, 42]</li>
+                    <li>Since the strength of the chain is determined by the weakest link, then the first step to improve an organization must be to identify the weakest link[cite: 2, 42].</li>
+                </ul>
+
+                <h3 style="margin-top: 25px; margin-bottom: 10px; font-size: 1.2rem; color: #333;">Productivity, Metrics, and Financial Health</h3>
+                <ul class="highlight-list">
+                    <li>Productivity is the act of bringing a company closer to its goal. Every action that brings a company closer to its goal is productive. Every action that does not bring a company closer to its goal is not productive[cite: 2, 42].</li>
+                    <li>Any money we’ve lost is operational expense; any investment that we can sell is inventory[cite: 2, 42].</li>
+                    <li>Increase throughput while simultaneously reducing both inventory and operating expense[cite: 2, 42].</li>
+                    <li>Every company would want to have its throughput go up, and want the other two, inventory and operational expense, to go down simultaneously[cite: 2, 42].</li>
+                    <li>Central to knowing if the company is making money: net profit, ROI and cash flow[cite: 2, 42].</li>
+                    <li>Bad cash flow is what kills most of the businesses that go under[cite: 2, 42].</li>
+                    <li>Throughput[cite: 2, 42]</li>
+                    <li>The next measurement is inventory[cite: 2, 42]</li>
+                    <li>Operational expense[cite: 2, 42]</li>
+                </ul>
+
+                <h3 style="margin-top: 25px; margin-bottom: 10px; font-size: 1.2rem; color: #333;">Science, Learning, and Operations</h3>
+                <ul class="highlight-list">
+                    <li>I view science as nothing more than an understanding of the way the world is and why it is that way[cite: 2, 42].</li>
+                    <li>I sincerely believe that the only way we can learn is through our deductive process[cite: 2, 42].</li>
+                    <li>How easy it is to give advice when the responsibility is on someone else’s shoulders[cite: 2, 42].</li>
+                    <li>Employees have to feel good about their work in order to be productive[cite: 2, 42].</li>
+                    <li>You can’t make money for long without a quality product[cite: 2, 42].</li>
+                    <li>Something is wrong. I don’t know what it is, but something basic is very wrong. I must be missing something[cite: 2, 42].</li>
+                </ul>
+                
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
